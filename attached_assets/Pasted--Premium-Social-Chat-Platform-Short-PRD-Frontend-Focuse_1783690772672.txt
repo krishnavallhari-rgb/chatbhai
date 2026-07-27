@@ -1,0 +1,65 @@
+# Premium Social Chat Platform — Short PRD (Frontend-Focused)
+
+**Stack:** Next.js (App Router), React, TypeScript, Tailwind CSS, Lucide Icons, Framer Motion.
+**Backend:** Skipped for now — use mock/dummy data.
+
+**Design:** Minimal, modern, premium (Instagram + Telegram + Discord + Apple Messages + Notion inspired, not a copy). Inter font, rounded corners, soft shadows, glass effects, micro-animations, no childish colors.
+
+**Palette:** BG `#F8FAFC` · Card `#FFFFFF` · Text `#111827` · Muted `#6B7280` · Border `#E5E7EB` · Primary `#2563EB` · Hover `#1D4ED8` · Light Blue `#60A5FA` · Success `#22C55E` · Danger `#EF4444` · Warning `#F59E0B` · Bubble Mine `#2563EB` · Bubble Other `#F3F4F6`
+
+---
+
+## 1. Auth
+Login · Register · Google Login · Forgot/Reset Password · Email Verification · Session Management
+
+## 2. User Profile
+Username · Display Name · Avatar · Cover Image · Bio · Website · Location · Followers/Following counts · Mutual Friends · Verified Badge · Join Date
+
+## 3. Follow System
+Follow / Unfollow / Follow Back · Remove Follower · View Followers/Following · Suggested Users · Mutual Followers · Private/Public Accounts · Follow Requests (send/accept/reject) · Animated follow button · Follower list popup
+
+## 4. Friends
+Mutual follow = Friend · Friends get priority messages, online visibility, easier chat access
+
+## 5. Home Feed
+Create Post (photo/video/multi-image) · Captions, Hashtags, Mentions, Location · Like · Comment + Reply · Share · Save · Edit/Delete · Infinite scroll
+
+## 6. Stories
+Photo/Video stories · 24h expiry · View count · Seen list · Reactions
+
+## 7. Explore
+Trending posts · Suggested users · Popular hashtags · Global search
+
+## 8. Search
+Search people, posts, friends, messages, hashtags · Live/instant results
+
+## 9. Messaging
+1:1 & Group chat · Realtime messages · Typing indicator · Delivered/Seen status · Online/Last seen · Unread count · Reply · Forward · Delete (self/everyone) · Edit message · Emoji reactions & picker · GIF/Sticker support · Voice messages · Image/Video/File/Document sharing · Message search · Pinned messages · Chat wallpaper · Mute/Archive/Delete chat · Block/Report user · Message requests · Date separators · Unread divider · Loading skeletons
+
+## 10. Notifications
+Likes, Comments, Replies, Follow Requests, Accepted Requests, Messages, Mentions, Stories, System — grouped by date
+
+## 11. Profile Page
+Posts grid · Tagged posts · Saved posts · Followers/Following · Mutual friends · Shared media · Edit profile
+
+## 12. Settings
+Dark mode · Notification settings · Privacy · Blocked/Muted users · Language · Delete account · Logout
+
+## 13. Privacy Controls
+Private/Public account · Hide last seen/online/read receipts · Who can message/follow me · Blocked & restricted users
+
+## 14. Media Handling
+Upload images/videos/docs/avatars/covers/stories · Compression · Preview · Progress bar
+
+## 15. Animations & Polish
+Fade, scale, slide, hover lift, button ripple, page transitions, typing animation, notification animation, loading skeletons — smooth everywhere
+
+## 16. Responsive & Accessible
+Desktop / Tablet / Mobile layouts · Keyboard navigation · ARIA labels · Focus states · Screen-reader friendly
+
+## 17. Future Roadmap (not in v1)
+Voice/Video calls · Screen sharing · AI chat assistant · AI reply suggestions · AI translation · AI moderation · Communities · Marketplace · Events · Polls · Live streaming
+
+---
+
+*Realtime, database schema, and Row-Level-Security details are intentionally omitted — this version targets frontend build with mock data only.*
